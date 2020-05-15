@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_height">100dp</dimen>
+    <dimen name="item_margin">12dp</dimen>
+    <dimen name="item_song_text_size">18sp</dimen>
+    <dimen name="item_artist_text_size">13sp</dimen>
+    <dimen name="image_top_margin">100dp</dimen>
+    <dimen name="image_card_ragius">20dp</dimen>
+    <dimen name="image_width">300dp</dimen>
+    <dimen name="image_height">300dp</dimen>
+    <dimen name="artist_text_size">18sp</dimen>
+    <dimen name="song_name_text_size">24sp</dimen>
+</resources>

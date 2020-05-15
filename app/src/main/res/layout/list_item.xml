@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/item_margin"
+    tools:context=".MusicDetails"
+    app:cardBackgroundColor="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/thum_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/thumbline"
+           />
+
+        <TextView
+            android:id="@+id/item_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/item_place_holder"
+            android:textStyle="bold"
+            android:textSize="@dimen/item_song_text_size"
+            android:textColor="@android:color/white"
+            android:layout_toEndOf="@id/thum_img"/>
+
+        <TextView
+            android:id="@+id/item_artist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_song_name"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/item_artist_placeholder"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/item_artist_text_size"
+            android:layout_toEndOf="@id/thum_img"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
